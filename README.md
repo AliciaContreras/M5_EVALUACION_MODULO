@@ -33,9 +33,7 @@ La base de datos se diseñó siguiendo los principios de normalización (hasta l
 
 ![Diagrama Entidad-Relación](diagrama.drawio.png)
 
-### Esquema Lógico (Físico)
 
-![Esquema Lógico](diagrama.png)
 
 ---
 
@@ -80,3 +78,4 @@ Para desplegar este sistema en tu propio entorno de MySQL, sigue estos pasos:
 -   **Transacciones Atómicas:** Implementación de `START TRANSACTION`, `COMMIT` y `ROLLBACK` para operaciones críticas como la actualización de inventario, garantizando que los datos nunca queden en un estado inconsistente.
 
 -   **Consultas Avanzadas:** Ejemplos de `JOIN`s (INNER y LEFT) y subconsultas para generar reportes complejos y útiles para la toma de decisiones.
+
